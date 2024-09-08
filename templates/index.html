@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Music Playlist</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Current Telemetry Data</h1>
+    <p>{{ telemetry }}</p>
+    <h2>Now Playing: {{ song }}</h2>
+</body>
+</html>
